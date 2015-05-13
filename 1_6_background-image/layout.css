@@ -1,0 +1,38 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+body{
+	background-image:url(paper.jpg);
+	font-family:Arial, Helvetica, "微軟正黑體", sans-serif;
+}
+
+div{
+	width:860px;                 /*一開始的寬高width和height是圖片的寬高，860是減掉Padding之後剩下的值 860=980-60-60*/
+	height:520px;
+	
+	background-image:url(Ribbon_Box.png);
+	
+	margin-left:auto;
+	margin-right:auto;
+	
+	padding-top:80px;           /*這個數值是用photoshop丈量出來的*/
+	padding-left:60px;          /*這個數值是用photoshop丈量出來的*/
+	padding-right:60px;
+}
+
+h1{
+	font-size:30px;
+	font-family:Arial, Helvetica, "微軟正黑體", sans-serif;
+	text-align:center;
+	padding-bottom:15px;
+}
+
+p{
+	font-size:15px;
+	line-height:1.6;            /*這是常見的字體高度*/
+	font-family:Arial, Helvetica, "微軟正黑體", sans-serif;
+	text-align:justify;         /*加上這個可以讓文字右邊尾端切齊比較好看*/
+	padding-bottom:15px;        /*由於我們使用了*{ } 將全部的tag間距預設值都刪除了，因此我們才可以準確的設定文字下方間距*/
+}
