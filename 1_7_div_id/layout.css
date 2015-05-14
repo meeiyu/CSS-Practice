@@ -1,0 +1,67 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body {
+	background-color:#999;
+	font-family:Arial, Helvetica, "微軟正黑體", sans-serif;
+}
+
+#TOP {
+	width:960px;
+	height:160px;
+	background-image:url(top.png);
+	margin-left:auto;
+	margin-right:auto;
+}
+
+h4{
+	font-size:20px;
+	padding-left:52px;/*因為文字會有落差所以這邊給52跟下面的h1不同*/
+	padding-top:60px; /*因為文字沒有寬高，所以不用減去width or height*/
+}
+
+h1{
+	padding-left:50px;
+	font-size:30px;
+}
+
+span {
+	color:#FFF;
+	text-shadow: 1px 1px 3px #333333;  /*文字加陰影，第一個參數是x 第二個參數是y 第三個參數是陰影的size 第四個參數是陰影的顏色*/
+}
+
+b{
+	float:left;       /*設定文繞圖*/
+	font-size: 30px;  
+}
+
+#CENTER {
+	width:860px;    /*圖片原本的寬度是960，因為下面用了padding-left和padding-right所以要減掉內間距 860=960-50-50*/
+	background-image:url(center.png);
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:20px;
+	padding-left:50px;
+	padding-right:50px;
+}
+
+p {
+	font-size:13px;
+	line-height:1.6;
+	padding-bottom:15px;
+}
+
+#DOWN{
+	width:960px;
+	height:60px;
+	background-image:url(down.png);
+	margin-left:auto;
+	margin-right:auto;
+}
+
+h3{
+	text-align:center;
+	padding-top:20px;
+}
