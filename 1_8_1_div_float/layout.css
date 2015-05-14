@@ -1,0 +1,58 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body {
+	background-color:#999;
+	font-family:Arial, Helvetica, "微軟正黑體", sans-serif;
+}
+
+#TOP {
+	width:960px;
+	height:160px;
+	background-image:url(top.png);
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#CENTER {
+	width:960px;
+	/*height:460px;*/
+	overflow:hidden;
+	/*background-image:url(center.png);*/
+	background-color:#FFF;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+.BOX{
+	width:280px;
+	/*height:410px;*/
+	background-color:#EEE;
+	border-top: 15px solid #360;
+	
+	float:left;       /*讓div水平排列*/
+	margin-left:30px
+}
+
+p {
+	font-size:13px;
+	line-height:1.6;
+	padding-bottom:15px;
+}
+
+#DOWN{
+	width:960px;
+	height:60px;
+	background-image:url(down.png);
+	margin-left:auto;
+	margin-right:auto;
+}
+
+h3{
+	text-align:center;
+	padding-top:20px;
+}
