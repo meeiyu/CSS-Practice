@@ -1,0 +1,29 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #333333;
+	font-family:"微軟正黑體", Arial, Helvetica, sans-serif;
+}
+
+#box1 {
+	border:10px solid #FFF;
+	width:300px;
+	height:100px;
+	margin:20px;
+    padding:10px;
+    background-color:rgb(18, 201, 100);
+    box-sizing:border-box;
+}
+
+#box2 {
+	border:10px solid #FFF;
+	width:300px;
+	height:100px;
+	margin:20px;
+    padding:10px;
+    background-color: rgb(18, 201, 100);
+    box-sizing: content-box;
+}
