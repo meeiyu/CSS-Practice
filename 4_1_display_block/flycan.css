@@ -1,0 +1,45 @@
+*{
+	padding:0;
+	margin:0;	
+}
+
+body{
+	font-family:Arial, Helvetica, "微軟正黑體",sans-serif;
+}
+
+#content {
+	width:880px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#content h2{
+	display:block;
+	background-image:url(images/top.jpg);
+	height:50px;
+	width:880px;
+	text-indent:-999px;
+}
+
+#content h1{
+	display:block;
+	background-image:url(images/banner.jpg);
+	height:200px;
+	width:880px;
+	text-indent:-999px;
+}
+
+#content p{
+	font-size:14px;
+	line-height:1.6;
+	text-align:justify;
+	padding-bottom:20px;
+}
+
+#content h3{
+	display:block;
+	background-image:url(images/down.jpg);
+	height:50px;
+	width:880px;
+	text-indent:-999px;
+}
