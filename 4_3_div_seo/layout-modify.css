@@ -1,0 +1,67 @@
+﻿*{
+	padding:0;
+	margin:0;
+}
+
+body{
+	background-image:url(images/bg.png);
+	font-family:Arial, Helvetica, "微軟正黑體", sans-serif;
+}
+
+#BANNER{
+	width:1000px;
+	height:350px;
+	margin:0 auto;
+	border: 10px solid #FFF;
+}
+
+#BANNER h1{
+	background-image:url(images/banner.jpg);
+	display:block;
+	text-indent:-9999px;
+	width:1000px;
+	height:350px;
+}
+
+#CONTENT {
+	margin:0 auto;
+	width:1020px;
+	overflow:hidden;
+	background-color:#FFF;
+	padding:10px 0px;
+}
+
+#CONTENT .BOX {
+	float:left;
+	width:280px;
+	margin-left:45px;
+}
+
+#CONTENT .BOX h3 {
+	font-size:32px;
+	line-height:2;
+	border-bottom:2px solid #369;
+	text-align:center;
+	color:#369;
+}
+
+#CONTENT .BOX p {
+	font-size:15px;
+	line-height:1.8;
+	color:#333;
+	padding:20px;
+}
+
+#DOWN {
+	margin:0 auto;
+	width:1020px;
+	background-color:#369;
+	padding:20px 0px;
+}
+
+#DOWN p {
+	font-size:13px;
+	text-align:center;
+	line-height:1.6;
+	color:#FFF;
+}

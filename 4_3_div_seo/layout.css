@@ -1,0 +1,64 @@
+﻿*{ margin:0; padding:0; }
+
+body{
+	background-image:url(images/bg.png);
+	font-family:Arial, Helvetica,"微軟正黑體", sans-serif;
+}
+
+#BANNER{
+	width:1000px;
+	height:350px;
+	margin:0 auto; /*讓 DIV 置中的縮寫 上下0 左右auto */
+	border:10px solid #FFF; /*DIV 做邊框*/
+}
+
+#BANNER h1{
+	display:block;
+	width:1000px;
+	height:350px;
+	background-image:url(images/banner.jpg);
+	text-indent:-9999px;
+}
+
+#CONTENT{
+	width:1020px;
+	margin:0 auto;
+	overflow:hidden; /*自動抓高度*/
+	background-color:#FFF;
+	padding:10px 0px; /*內間距 上下10PX 左右0PX*/
+}
+
+#CONTENT .BOX{
+	float:left;
+	width:280px;
+	margin-left:45px;
+}
+
+#CONTENT .BOX h3{
+	font-size:2em;
+	line-height:2;
+	border-bottom:2px solid #369;
+	color:#369;
+	text-align:center;
+}
+
+#CONTENT .BOX p{
+	font-size:15px;
+	line-height:1.8;
+	padding:20px; /*同時設定四個邊的間距都是20PX*/
+	color:#333;
+}
+
+#DOWN{
+	width:1020px;
+	margin:0 auto;
+	background-color:#369;
+	padding:20px 0px; /*內間距 上下20PX 左右0PX*/
+}
+
+#DOWN p{
+	font-size:13px;
+	text-align:center;
+	line-height:1.8;
+	color:#FFF;
+}
