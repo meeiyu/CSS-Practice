@@ -1,0 +1,38 @@
+
+body{
+	background-color:#333;
+	background-image:url(bg.jpg);
+	background-repeat:repeat-y;
+	background-position:center top;
+	font-family:Arial, Helvetica,"微軟正黑體", sans-serif;
+	color:#FFF;
+}
+
+div{
+	width:580px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+h1{
+	font-size:45px;
+	text-align:center;
+	padding-top:20px;
+	text-transform:uppercase;
+}
+
+p{
+	font-size:15px;
+	line-height:1.6;
+	text-align:justify;
+}
+
+
+/*
+	background-image:url(bg.jpg);
+	
+	background-position:center top;
+	background-attachment:fixed;
+
+
+*/

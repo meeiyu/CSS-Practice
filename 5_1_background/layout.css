@@ -1,0 +1,57 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background-color:#069;
+	background-image:url(Bench_by_Artdesigner.lv.png);
+	background-repeat:no-repeat;
+	background-position:right bottom;
+	background-attachment:fixed;
+	
+	padding-bottom:30px;
+}
+
+#BOX{
+	width:760px;
+	font-family:"微軟正黑體", Arial, Helvetica, sans-serif;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#CONTENT{
+	padding-top:40px;	
+	padding-left:40px;
+	padding-right:40px;
+
+	background-color:#FFF; 					/*這是 CSS2 的寫法*/
+	background-color:rgba(255,255,255,0.8); /*這是 CSS3 新寫法*/
+	border-radius:5px; 					/*CSS3 圓角效果*/
+}
+
+h1{
+	color:#FFF;
+	font-size:40px;
+	font-family:Verdana, Geneva, sans-serif;
+	text-align:right;
+	padding-top:40px;
+	letter-spacing:3px;
+	text-transform:uppercase;
+	
+	text-shadow:1px 1px 1px #333; 		/*CSS3 文字的陰影效果*/
+}
+
+b{
+	color:#3CF;
+}
+
+p{
+	font-size:15px;
+	line-height:1.6;
+	text-align:justify;
+	text-indent:2em;
+	padding-bottom:15px;
+}
+
+
