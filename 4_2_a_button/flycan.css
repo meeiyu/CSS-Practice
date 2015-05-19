@@ -1,0 +1,43 @@
+*{
+	padding:0;
+	margin:0;	
+}
+
+body{
+	font-family:Arial, Helvetica, "微軟正黑體", sans-serif;
+}
+
+#BOX{
+	background-image:url(box.jpg);
+	width:300px;
+	height:600px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#BOX h2{
+	display:block;
+	background-image:url(title.gif);
+	width:300px;
+	height:120px;
+	text-indent:-9999px;
+	margin-bottom:15px;
+}
+
+#BOX a{
+	display:block;
+	width:300px;
+	height:60px;
+	line-height:60px;
+	text-align:center;
+	background-image:url(btn01.gif);
+	text-decoration:none;
+	margin-bottom:10px;
+	color:#111;
+	font-size:15px;
+}
+
+#BOX a:hover{
+	background-image:url(btn02.gif);
+	color:#F00
+}
