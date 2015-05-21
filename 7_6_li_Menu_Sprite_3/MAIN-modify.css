@@ -1,0 +1,33 @@
+ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+	
+	display:block;
+	width:660px;
+	height:110px;
+	background-image:url(../7_5_li_Menu_Sprite_2/banner.jpg);
+	margin:0 auto;
+	
+	padding-top:10px;
+	padding-left:240px;
+}
+li {
+	float:left;
+}
+
+li a {
+	display:block;
+	width:126px;
+	height:100px;
+	text-indent:-9999px;
+}
+li a:hover {
+	background-position:left bottom;
+}
+
+li.PS a {background-image:url(../7_5_li_Menu_Sprite_2/btn01.jpg);}
+li.DW a {background-image:url(../7_5_li_Menu_Sprite_2/btn02.jpg);}
+li.FL a {background-image:url(../7_5_li_Menu_Sprite_2/btn03.jpg);}
+li.AS a {background-image:url(../7_5_li_Menu_Sprite_2/btn04.jpg);}
+li.HC a {background-image:url(../7_5_li_Menu_Sprite_2/btn05.jpg);}

@@ -1,0 +1,36 @@
+ul{
+	list-style:none;
+	margin:0;
+	padding:0;	
+	display:block;
+	width:660px;
+	height:110px;
+	background-image:url(banner.jpg);
+	margin:0 auto;	
+	padding-left:240px;
+	padding-top:10px;
+}
+li{
+	float:left;
+}
+li a{
+	display:block;
+	width:126px;
+	height:100px;	
+	text-indent:-9999px;
+	background-image:url(menu.jpg);
+}
+
+	
+li.PS a{ background-position:0px 0px;}
+li.DW a{ background-position:-126px 0px;}
+li.FL a{ background-position:-252px 0px;}
+li.AS a{ background-position:-378px 0px;}
+li.HC a{ background-position:-504px 0px;}
+
+li.PS a:hover{ background-position:0px -100px;}
+li.DW a:hover{ background-position:-126px -100px;}
+li.FL a:hover{ background-position:-252px -100px;}
+li.AS a:hover{ background-position:-378px -100px;}
+li.HC a:hover{ background-position:-504px -100px;}		
+
