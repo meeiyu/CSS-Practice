@@ -1,0 +1,30 @@
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width:900px;
+	margin: 0 auto;
+}
+
+li{
+	float:left;
+}
+
+li a{
+	display:block;
+	width:180px;
+	height:40px;
+	background-image:url(button_01.gif);
+	line-height:40px;
+	text-indent:15px;
+	color:#000000;
+	text-decoration:none;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+li a:hover{
+	background-image: url(button_02.gif);
+}
+
+

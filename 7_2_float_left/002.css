@@ -1,0 +1,31 @@
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+	width: 900px; /*固定寬度*/
+	margin: 0 auto; /*一定要先有寬度 才能讓物件置中*/
+}
+
+li {
+	float: left; /*水平排列*/
+}
+
+li a {
+	display: block;
+	width: 180px;
+	height: 40px;
+	background-image: url(button_01.gif);
+	line-height: 40px;
+	text-indent: 15px;
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	font-size: 12px;	
+}
+
+li a:hover {
+	background-image: url(button_02.gif);
+}
+
+
