@@ -1,0 +1,43 @@
+#BOX {
+	width:400px;
+	height:700px;
+	background-image:url(box.png);
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#BOX h3 {
+	font-size:15px;
+	background-image:url(icon.png);
+	background-repeat:no-repeat;
+	background-color:#009;
+	line-height:40px;
+	color:#FFF;
+	padding-left:60px;
+	margin-left:4px;
+	margin-right:5px;
+	border-left:10px solid #333;
+}
+
+#BOX h3.AA{
+	background-position: 15px 0px; 
+}
+
+#BOX h3.BB{
+	background-position: 15px -40px; 
+}
+
+#BOX h3.CC{
+	background-position: 15px -80px; 
+}
+
+#BOX h3.DD{
+	background-position: 15px -120px;
+}
+
+#BOX p{
+	font-size:13px;
+	line-height:1.6;
+	padding-left:30px;
+	padding-right:30px;
+}
