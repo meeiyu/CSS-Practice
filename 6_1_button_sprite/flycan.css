@@ -1,0 +1,33 @@
+/* CSS Document */
+
+#BOX {
+	width:300px;
+	height:600px;
+	background-image:url(box.jpg);
+	margin-left:auto;
+	margin-right:auto;
+}
+#BOX h2 {
+	display:block;
+	width:300px;
+	height:120px;
+	background-image:url(title.gif);
+	text-indent:-9999px;
+}
+#BOX a {
+	display:block;
+	width:300px;
+	height:60px;
+	background-image:url(button22.gif);
+	text-align:center;
+	line-height:60px;
+	color:#666666;
+	text-decoration:none;
+	font-family:Arial;
+}
+#BOX a:hover {
+	/*下面這一行也可以改成這樣*/
+	/*background-position:0px -60px;*/
+	background-position:left bottom;
+	color:#000000;
+}
