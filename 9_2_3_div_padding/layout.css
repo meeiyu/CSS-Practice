@@ -1,0 +1,30 @@
+@import url:"reset.css"; 
+
+body{
+	font-family:Arial, Helvetica, "微軟正黑體", sans-serif;	
+}
+
+#BOX{
+	width:710px;   /*800-90=710*/
+	height:550px;  /*600-50=550*/
+	margin:0 auto;
+	background-image:url(Flycan_Box_800.jpg);
+	
+	padding:50px 45px 0 45px;
+}
+
+#BOX h1{
+	font-size:25px;
+	padding-bottom:15px;
+}
+
+#BOX h2{
+	font-size:17px;
+	padding-bottom:10px;
+}
+
+#BOX p{
+	font-size:13px;
+	line-height:1.6;
+	padding-bottom:10px;
+}

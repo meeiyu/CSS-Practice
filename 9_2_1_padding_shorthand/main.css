@@ -1,0 +1,16 @@
+@import url("reset.css");
+
+#HEADER{
+	width:880px;
+	height:220px;
+	background-image:url(banner.jpg);
+	margin:0 auto;
+}
+
+#HEADER p{
+	font-size:12px;
+	color:#333333;
+	line-height:20px;
+	text-align:justify;
+	padding:40px 30px 0 30px;
+}

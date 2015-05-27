@@ -1,0 +1,15 @@
+@import url:("reset");
+
+#HEADER{
+	width:880px;
+	height:220px;
+	margin:0 auto;
+	background-image:url(banner.jpg);
+}
+
+#HEADER P{
+	padding:30px 30px 0 250px;
+	font-size:12px;
+	color:#333333;
+	text-align:justify;
+}
