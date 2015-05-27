@@ -1,0 +1,59 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family:Arial, Helvetica, "微軟正黑體", sans-serif;
+}
+
+#HEADER{
+	width:828px;
+	height:248px;
+	margin:0 auto;
+}
+
+#HEADER h1{
+	display:block;
+	width:828px;
+	height:188px;
+	background:url(../8_1_Menu_down/banner.jpg);
+	text-indent:-9999px;
+	
+	clear:both;
+}
+
+#HEADER ul{
+	list-style:none;	
+}
+
+#HEADER li{
+	float:left;
+}
+
+#HEADER li a{
+	text-decoration:none;
+	display:block;
+	width:138px;
+	height:40px;
+	background:url(../8_1_Menu_down/button.gif) left bottom no-repeat;
+	color:#000;
+	text-align:center;
+	line-height:40px;
+	font-size:15px;
+}
+
+#HEADER li a:hover{
+	color:#00F;	
+}
+
+#CONTENT{
+	width:828px;
+	margin:0 auto;
+}
+
+#CONTENT P{
+	font-size:15px;
+	line-height:1.6;
+	text-align:justify;
+}

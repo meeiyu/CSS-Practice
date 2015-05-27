@@ -1,0 +1,47 @@
+*{ margin:0; padding:0; }
+
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	margin-top:80px;
+}
+
+#HEADER {
+	width:828px;
+	height:248px;
+	margin:0 auto;
+}
+
+#HEADER ul {
+	list-style:none;
+}
+
+#HEADER li {
+	float:left; /*浮動：水平排列*/
+}
+
+#HEADER li a {
+	display:block;
+	width:138px;
+	height:40px;
+	background-image:url(button.gif);
+	line-height:45px;
+	text-align:center;
+	color:#333;	
+	text-decoration:none;
+}
+
+#HEADER li a:hover {
+	color:#369;
+}
+
+#HEADER h1 {
+	display:block;
+	width:828px;
+	height:188px;
+	background-image:url(banner.jpg);
+	text-indent:-9999px;
+	
+	clear:both; /*解除浮動：避免重疊上去*/
+}
+
+
