@@ -1,0 +1,58 @@
+@import url("reset.css");
+
+body{
+	font-family:Arial, Helvetica, "微軟正黑體", sans-serif;	
+}
+
+#HEADER{
+	width:880px;
+	height:300px;
+	margin:0 auto;
+}
+
+#HEADER img{
+	float:left;
+}
+
+#HEADER ul{
+	float:right;
+	padding-top:10px;
+	margin-right:5px;
+}
+
+#HEADER li{
+	float:left;
+	margin-right:1px;
+}
+
+#HEADER ul li.company{
+	color:#000000;
+	background-color:#CCCCCC;
+	display:block;
+	line-height:30px;
+	padding:0 10px;
+	font-size:13px;
+}
+
+#HEADER li a{
+	text-decoration:none;
+	color:#FFFFFF;
+	background-color:#336699;
+	display:block;
+	line-height:30px;
+	padding:0 10px;
+	font-size:13px;
+}
+
+#HEADER li a:hover{
+	color:#A7D1FC;
+	background-color:#FF0000;
+}
+
+#HEADER h1{
+	text-indent:-9999px;
+	clear:both;
+	width:880px;
+	height:260px;
+	background-image: url(banner.jpg);
+}
