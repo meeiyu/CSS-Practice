@@ -1,0 +1,30 @@
+@import url("reset.css");
+
+body{
+	font-family:Arial, Helvetica, "微軟正黑體", sans-serif;	
+	background-color:#CCC;
+	margin-top:200px;
+}
+
+#BOX{
+	width:960px;
+	height:400px;
+	margin:0 auto;
+	border: 20px solid #F2F2F2;
+	
+	position:relative;/*這個範例的重點讓座標的原點設定在父層左上角*/
+}
+
+#BOX #BANNER{
+
+}
+#BOX #LEFT {
+	position:absolute;
+	left:20px;
+	top:170px;
+}
+#BOX #RIGHT {
+	position:absolute;
+	right:20px;
+	top:170px;
+}

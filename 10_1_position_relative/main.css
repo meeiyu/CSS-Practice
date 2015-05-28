@@ -1,0 +1,23 @@
+@import url("reset.css");
+
+body{
+	font-family:Arial, Helvetica,"微軟正黑體", sans-serif;
+}
+
+#HEADER {
+	width:800px;
+	height:200px;
+	margin:0 auto;
+	background-image:url(banner.gif);
+	
+	position:relative;  /*讓座標的原點設定在這個父層*/
+	
+	}
+
+#HEADER h1 {
+	position:absolute;
+	left:530px;
+	top:115px;
+}
+
+
