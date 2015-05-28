@@ -1,0 +1,124 @@
+@import url("reset.css");
+
+body{
+	font-family:Arial, Helvetica, "微軟正黑體", sans-serif;
+	background-color:#CCC;
+}
+
+/*最外層*/
+#WAPPER{
+	/*width:960px;*/
+	width:100%;	/*最外層只要設寬度 不用設高度 就會自動包住全部*/
+	margin:0 auto;
+	background-image:url(wrapper_bg.gif);
+	background-repeat:repeat-y;
+	box-shadow:1px 5px 20px #333333; /*陰影效果*/	
+	min-width:960px; /*限定最小寬度*/
+}
+
+/*頁首區*/
+
+#HEADER{
+	/*width:960px;*/
+	width:100%;
+	height:300px;
+	margin:0 auto;
+}
+
+#HEADER h1{
+	display:block;
+	width:960px;
+	height:300px;
+	background-image:url(flycan-08.jpg);
+	text-indent:-9999px;	
+}
+
+/*選單區*/
+
+#NAV{
+	background-color:#FFF;
+	/*width:960px;*/
+	width:100%;
+	height:55px;
+	margin:0 auto;
+}
+
+#NAV ul{
+	width:960px;
+	height:50px;
+	margin:0 auto;
+}
+
+#NAV li{
+	float:left;
+}
+
+#NAV li a{
+	width:120px;
+	height:50px;
+	line-height:50px;
+	text-decoration:none;
+	display:block;
+	font-size:15px;
+	text-align:center;
+	color:#000;
+}
+
+#NAV li a:hover{
+	background-color:#0C0;
+	border-top:5px solid #DDD;
+}
+
+/*內容區*/
+
+#SIDE{
+	clear:both;	
+	width:200px;
+	float:left;	
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+#SIDE p{
+	font-size:15px;
+	line-height:1.7;
+	text-align:center;
+}
+
+#CONTENT{
+	margin-left:200px;
+	
+	/* 註解掉上一個例子的做法，改用margin-left:200px;
+	width:760px;
+	float:right;
+	margin:0 auto;
+	
+	*/
+	background-color:#FFF;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+#CONTENT p{
+	font-size:15px;
+	line-height:1.7;
+	padding:0 30px; /*上下0 左右30px*/
+	padding-bottom:15px;
+}
+
+/*頁尾區*/
+
+#FOOTER{
+	clear:both;	
+	width:100%;
+	height:60px;
+	background-color:#000;
+	border-top:5px solid #444;
+}
+
+#FOOTER h2{
+	font-size:15px;
+	text-align:center;
+	line-height:60px;
+	color:#FFF;
+}

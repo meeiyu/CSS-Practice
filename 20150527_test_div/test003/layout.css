@@ -1,0 +1,113 @@
+@import url("reset.css");
+
+body{
+	font-family:Arial, Helvetica, "微軟正黑體", sans-serif;
+	background-color:#CCC;
+}
+
+/*最外層*/
+#WAPPER{
+	width:960px;
+	/*width:100%;*/
+	margin:0 auto;
+	box-shadow: 1px 5px 20px #333333;
+	background-image:url(wrapper_bg.gif);
+}
+
+/*頁首區*/
+
+#HEADER{
+	background-image:url(flycan-08.jpg);
+	width:960px;
+	height:300px;
+	margin:0 auto;
+}
+
+#HEADER h1{
+	text-indent:-9999px;	
+}
+
+/*選單區*/
+
+#NAV{
+	background-color:#3F9;
+	width:960px;
+	height:50px;
+	margin:0 auto;
+}
+
+#NAV ul{}
+
+#NAV li{
+	float:left;
+}
+
+#NAV li a{
+	width:120px;
+	height:50px;
+	line-height:50px;
+	text-decoration:none;
+	display:block;
+	font-size:15px;
+	text-align:center;
+	color:#000;
+}
+
+#NAV li a:hover{
+	color:#FFF;
+	background-color:#0C0;
+}
+
+/*內容區*/
+
+#SIDE-1{
+	
+	width:200px;
+	float:left;
+	
+	padding:30px 0 30px 0;
+}
+
+#SIDE-1 p{
+	font-size:15px;
+	line-height:1.7;
+	text-align:center;
+}
+
+#SIDE-2{
+	width:200px;
+	float:right;
+	
+	padding:30px 0 30px 0;
+}
+
+#SIDE-2 p{
+	font-size:15px;
+	line-height:1.7;
+	text-align:center;
+}
+
+#CONTENT{
+	margin-left:200px;
+	margin-right:200px;
+	padding: 30px 0 30px 0;
+}
+
+#CONTENT p{
+	padding: 0 30px 15px 30px;
+}
+
+/*頁尾區*/
+
+#FOOTER{
+	clear:both;
+	background-color:#F93;
+	width:960px;
+	height:60px;
+	margin:0 auto;
+}
+
+#FOOTER h2{
+	text-align:center;
+	line-height:60px;
+}
